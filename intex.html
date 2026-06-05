@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Данил Азизов</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+header{
+background:#1e293b;
+padding:20px;
+position:sticky;
+top:0;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:80px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+.hero{
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+color:#cbd5e1;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+margin-top:20px;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+margin-top:15px;
+}
+
+.skill{
+background:#2563eb;
+padding:10px 15px;
+border-radius:10px;
+}
+
+.project{
+margin-top:15px;
+padding:15px;
+background:#334155;
+border-radius:10px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#1e293b;
+margin-top:50px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<nav>
+<a href="#home">Главная</a>
+<a href="#about">Обо мне</a>
+<a href="#skills">Навыки</a>
+<a href="#projects">Проекты</a>
+<a href="#contact">Контакты</a>
+</nav>
+</header>
+
+<section id="home" class="hero">
+<h1>Данил Азизов</h1>
+<p>Добро пожаловать на мой сайт</p>
+</section>
+
+<section id="about">
+<h2>Обо мне</h2>
+<div class="card">
+<p>
+Меня зовут Данил. Я изучаю веб-разработку,
+интересуюсь технологиями и постоянно развиваюсь.
+</p>
+</div>
+</section>
+
+<section id="skills">
+<h2>Навыки</h2>
+<div class="card">
+<div class="skills">
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">GitHub</div>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<h2>Мои проекты</h2>
+
+<div class="project">
+<h3>Проект №1</h3>
+<p>Описание проекта.</p>
+</div>
+
+<div class="project">
+<h3>Проект №2</h3>
+<p>Описание проекта.</p>
+</div>
+
+</section>
+
+<section id="contact">
+<h2>Контакты</h2>
+<div class="card">
+<p>Email: yourmail@example.com</p>
+<p>Телефон: +7 XXX XXX XX XX</p>
+</div>
+</section>
+
+<footer>
+<p>© 2026 Данил Азизов</p>
+</footer>
+
+</body>
+</html>
